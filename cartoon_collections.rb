@@ -9,7 +9,8 @@ def summon_captain_planet(array)
 end
 
 def long_planeteer_calls# code an argument here
-
+  array.any? { |word|
+  
 
 end
 
