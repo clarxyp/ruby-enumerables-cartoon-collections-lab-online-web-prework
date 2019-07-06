@@ -19,4 +19,6 @@ def find_the_cheese(array)
   array.find { |i|
     if cheese_types.include? (i)
       return i
+    end
+  }
 end
